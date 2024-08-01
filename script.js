@@ -52,6 +52,7 @@ function generateScale() {
       if (isMouseDown) {
         if (erase.checked === true) {
           e.style.backgroundColor = "white";
+          e.style.opacity = "1";
         } else if (colors.checked === true && erase.checked !== true) {
           e.style.backgroundColor = `
           rgb(
