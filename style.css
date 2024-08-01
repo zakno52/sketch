@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+  align-items: center;
+  background-color: gray;
+}
+.output {
+  width: 30em;
+  height: 30em;
+  margin: 1em;
+  display: grid;
+  background-color: black;
+  border: 6px solid #5a5a5a;
+}
+
+.output div {
+  background-color: rgb(255, 255, 255);
+}
+
+.buttons button {
+  padding: 1em 2em;
+  margin: 2em 0.5em;
+}
+#scale {
+  width: 20em;
+}
+.header {
+  margin: 2em 0;
+}
+.screen {
+  display: flex;
+  align-items: center;
+}
+.checkbox {
+  background-color: #f0f0f0;
+  padding: 0.8em 0;
+  margin: 1em 30%;
+}
+
+.checkbox label,
+.checkbox input,
+button {
+  cursor: pointer;
+}

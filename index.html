@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sketch</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>TempleOs Sketch</h1>
+      <div class="parametres">
+        <label for="range">squares: 10</label>
+        <input
+          type="range"
+          id="scale"
+          min="10"
+          max="100"
+          value="50"
+          step="10"
+          name="range"
+        />
+        <label for="range">100</label>
+      </div>
+    </div>
+    <div class="screen">
+      <div id="output" class="output"></div>
+      <div class="buttons">
+        <button id="reset">reset</button>
+        <div class="checkbox">
+          <input id="erase" type="checkbox" name="erase" />
+          <label for="erase">eraser</label>
+        </div>
+        <br />
+        <div class="checkbox">
+          <input id="colors" type="checkbox" name="colors" />
+          <label for="colors">rainbow</label>
+        </div>
+        <button id="cat">/ᐠ.ꞈ.ᐟ\</button>
+        <button id="ndCat">₍ ^╥ ‸ ╥^₎</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
